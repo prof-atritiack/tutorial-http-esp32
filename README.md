@@ -1,5 +1,7 @@
 # **Requisições HTTP GET com ESP32 (Arduino IDE)**
 
+⚠️ Importante: Este exemplo utiliza requisição HTTP (não HTTPS). APIs que exigem HTTPS podem não funcionar corretamente sem configuração adicional no ESP32. Verifique se a API utilizada permite requisições via http://.
+
 Este guia apresenta o passo a passo para configurar seu DOIT ESP32 DEVKIT V1 e realizar requisições HTTP GET com a biblioteca HTTPClient. O exemplo utiliza a API da OpenWeatherMap, mas pode ser adaptado para qualquer outro serviço REST.
 
 ---
