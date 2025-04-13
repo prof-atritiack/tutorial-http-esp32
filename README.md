@@ -4,7 +4,7 @@ Este guia apresenta o passo a passo para configurar seu DOIT ESP32 DEVKIT V1 e r
 
 ---
 
-## 🧰 Requisitos
+## Requisitos
 
 - Placa DOIT ESP32 DEVKIT V1
 - Cabo micro USB
@@ -16,7 +16,7 @@ Este guia apresenta o passo a passo para configurar seu DOIT ESP32 DEVKIT V1 e r
 
 ---
 
-## 🛠️ Etapa 1: Configuração da IDE
+## Etapa 1: Configuração da IDE
 
 
 1. Vá em **File > Preferences**
@@ -30,7 +30,7 @@ Este guia apresenta o passo a passo para configurar seu DOIT ESP32 DEVKIT V1 e r
 
 ---
 
-## 📦 Etapa 2: Bibliotecas Utilizadas
+## Etapa 2: Bibliotecas Utilizadas
 
 O exemplo utiliza as seguintes bibliotecas:
 
@@ -48,7 +48,7 @@ Essa biblioteca é utilizada para interpretar os dados JSON retornados pela API 
 
 ---
 
-## 🔐 Etapa 3: Criar Conta na OpenWeatherMap
+## Etapa 3: Criar Conta na OpenWeatherMap
 
 1. Acesse [openweathermap.org](https://openweathermap.org)
 2. Crie uma conta gratuita
@@ -57,7 +57,7 @@ Essa biblioteca é utilizada para interpretar os dados JSON retornados pela API 
 
 ---
 
-## 💻 Etapa 4: Obter o Código de Exemplo
+## Etapa 4: Obter o Código de Exemplo
 
 O código completo está neste repositório.
 
@@ -75,13 +75,13 @@ Depois:
 
 ---
 
-## ✅ Conclusão
+## Conclusão
 
 Você aprendeu a conectar o ESP32 à internet e fazer requisições HTTP GET para uma API pública. Isso abre portas para integração com sistemas de clima, sensores urbanos, dashboards e muito mais.
 
 ---
 
-## 📄 Licença
+## Licença
 
 Este projeto está licenciado sob os termos da **MIT License**. Você pode usar, modificar e distribuir livremente, desde que mantenha os créditos ao autor original.
 
@@ -95,5 +95,5 @@ Consulte o arquivo `LICENSE` para mais detalhes.
 - [HTTPClient Library - Espressif](https://github.com/espressif/arduino-esp32/tree/master/libraries/HTTPClient)
 - [Random Nerd Tutorials - ESP32 HTTP GET](https://randomnerdtutorials.com/esp32-http-get-openweathermap-arduino/)
 
-> 🛠️ **Este tutorial foi gerado com o apoio do ChatGPT, com base em fontes oficiais e práticas de laboratório.**
+> 🛠**Este tutorial foi gerado com o apoio do ChatGPT, com base em fontes oficiais e práticas de laboratório.**
 
