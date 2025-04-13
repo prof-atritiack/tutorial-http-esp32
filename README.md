@@ -16,18 +16,43 @@ Este guia apresenta o passo a passo para configurar seu DOIT ESP32 DEVKIT V1 e r
 
 ---
 
-## Etapa 1: Configuração da IDE
+## Etapa 1: Configuração da IDE Arduino
 
+> **Observação importante:** Nos computadores do laboratório, as placas ESP32 já estão instaladas na IDE.
+> A seção a seguir é útil apenas para instalação em computadores pessoais.
+> Se está em um computador já configurado, pule para a seção 1.2.
 
-1. Vá em **File > Preferences**
-2. Em **Additional Board URLs**, adicione:
+### 1.1 Instalação da Placa ESP32 (apenas para uso em computadores próprios)
+
+1. Abra a Arduino IDE
+2. Vá em **File > Preferences**
+3. No campo **"Additional Board URLs"**, adicione:
    ```
    https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
    ```
-3. Acesse o **Boards Manager**, busque por `esp32` e instale o pacote da Espressif Systems
-4. Clique em **Select Other Board and Port**
-5. Escolha a placa **DOIT ESP32 DEVKIT V1** e selecione a porta COM (geralmente COM5 nos laboratórios)
+4. Clique em **OK**
+5. Vá até a aba **Boards Manager** (ícone de placa no menu lateral)
+6. Busque por **esp32** e instale o pacote da Espressif Systems
 
+> ⚠️ Módulos DOIT ESP32 DEVKIT V1 podem exigir drivers para comunicação USB. Caso sua placa não apareça nas portas disponíveis, instale os drivers CP210x:  
+> [Baixar Drivers USB CP210x (Windows)](https://randomnerdtutorials.com/install-esp32-esp8266-usb-drivers-cp210x-windows/#more-148082)
+
+### 1.2 Configurações Básicas da Arduino IDE
+
+- Ajuste as opções da IDE, no menu File ---> Preferences:
+- Escolha o tamanho da fonte de sua preferência.
+- Escolha o tema de sua preferência.
+- Habilite a opção "Editor Quicks Suggestions".
+
+### 1.3  Seleção da Placa e Porta
+
+- Na Arduino IDE, clique em **"Select Other Board and Port"** na parte superior da tela
+- Digite na busca "DEV ou DOIT" e selecione a placa **DOIT ESP32 DEVKIT V1**
+- Conecte a placa ao computador via cabo USB (não utilize a extensão, conecte direto na USB)
+- Selecione a porta COM correta (geralmente **COM5** nos laboratórios)
+- Ajuste a velocidade de comunicação do Serial Monitor (ícone do Serial Monitor, no canto superior direito da tela):
+**Velocidade do Monitor Serial**: 115200 bauds
+  
 ---
 
 ## Etapa 2: Bibliotecas Utilizadas
