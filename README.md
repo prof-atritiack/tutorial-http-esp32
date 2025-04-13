@@ -1,4 +1,4 @@
-# **Requisições HTTP GET com ESP32 (Arduino IDE)**
+## **Requisições HTTP GET com ESP32 (Arduino IDE)**
 
 ⚠️ Importante: Este exemplo utiliza requisição HTTP (não HTTPS). APIs que exigem HTTPS podem não funcionar corretamente sem configuração adicional no ESP32. Verifique se a API utilizada permite requisições via http://.
 
